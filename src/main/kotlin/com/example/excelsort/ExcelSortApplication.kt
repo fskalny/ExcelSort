@@ -1,11 +1,18 @@
 package com.example.excelsort
 
+import com.example.excelsort.service.WorkbookWriterService
+import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ExcelSortApplication
+class ExcelSortApplication(val workbookWriterService: WorkbookWriterService) : CommandLineRunner {
+
+    override fun run(vararg args: String) {
+        workbookWriterService.write()
+    }
+}
 
 fun main(args: Array<String>) {
-	runApplication<ExcelSortApplication>(*args)
+    runApplication<ExcelSortApplication>(*args)
 }
