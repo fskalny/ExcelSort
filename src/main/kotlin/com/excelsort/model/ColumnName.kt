@@ -1,4 +1,4 @@
-package com.example.excelsort.model
+package com.excelsort.model
 
 enum class ColumnName(val columnName: String) {
     LP("Lp."),

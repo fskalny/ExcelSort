@@ -1,6 +1,6 @@
-package com.example.excelsort.service
+package com.excelsort.service
 
-import com.example.excelsort.ESConstants
+import com.excelsort.ESConstants
 import org.apache.poi.ss.usermodel.Workbook
 import org.apache.poi.ss.usermodel.WorkbookFactory
 import org.springframework.stereotype.Service

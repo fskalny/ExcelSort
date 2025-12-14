@@ -1,6 +1,6 @@
-package com.example.excelsort
+package com.excelsort
 
-import com.example.excelsort.service.WorkbookWriterService
+import com.excelsort.service.WorkbookWriterService
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
