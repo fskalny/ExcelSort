@@ -10,14 +10,11 @@ import org.apache.poi.ss.usermodel.Sheet
 import org.apache.poi.ss.usermodel.Workbook
 import org.apache.poi.xssf.usermodel.XSSFCell
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
-import org.springframework.stereotype.Service
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 import java.math.BigDecimal
 
-
-@Service
 @AllArgsConstructor
 class WorkbookWriterService {
 

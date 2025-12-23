@@ -3,7 +3,6 @@ package com.excelsort.service
 import com.excelsort.ESConstants
 import org.apache.poi.ss.usermodel.Workbook
 import org.apache.poi.ss.usermodel.WorkbookFactory
-import org.springframework.stereotype.Service
 import java.io.ByteArrayInputStream
 import java.nio.file.Files
 import java.nio.file.Path
@@ -12,7 +11,6 @@ import kotlin.io.path.extension
 import kotlin.io.path.name
 import kotlin.streams.asSequence
 
-@Service
 class ExcelDataLoaderService {
     private val validExtensions = setOf("xls", "xlsx")
 
